@@ -1,0 +1,7 @@
+﻿•CóN hànhkhách1, 2, ..., N, kháchimuốnđitừđiểmiđếnđiểmi+N(i=1,2...,N). CóK sẽ bus 1,2,..., K xuấtpháttừđiểm 0, trong đó xe k có thể vận chuyển cùng 1 lúc qk khách. 
+•Biếtrằngd(i,j) làkhoảngcáchđitừđiểmiđếnđiểmj (i, j = 0,1,...,2N)
+•Hãylậpphươngánvậnchuyểnsaochotổngquãngđườngdi chuyểncủa k xelàngắnnhất.
+•Input
+•Dòng1: N và K
+•Dòng2: q1, q2, ..., qK
+•Dòngthứ2+i (i= 1,..., 2N+1): ghidòng thứ I củama trậnkhoảng cách d(i,j) 
