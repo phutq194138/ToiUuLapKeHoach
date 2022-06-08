@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-const int MAX = 40;
+const int MAX = 500;
 
 int n, k;
 int distanceMin = 2147483647;
@@ -61,10 +61,10 @@ void TRY(int a){
             else passengers--;
 
             if(a == 2*n) solution();
-            else TRY(a+1);
-//                if(distanceCur + (2*n - a)*minDist < distanceMin) {
-//                	TRY(a+1);
-//				} 
+            else 
+                if(true and distanceCur + (2*n - a)*minDist < distanceMin) {
+                	TRY(a+1);
+				} 
 
             if(i<=n) passengers--;
             else passengers++;
