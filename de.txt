@@ -1,7 +1,7 @@
-﻿•CóN hànhkhách1, 2, ..., N, kháchimuốnđitừđiểmiđếnđiểmi+N(i=1,2...,N). CóK sẽ bus 1,2,..., K xuấtpháttừđiểm 0, trong đó xe k có thể vận chuyển cùng 1 lúc qk khách. 
-•Biếtrằngd(i,j) làkhoảngcáchđitừđiểmiđếnđiểmj (i, j = 0,1,...,2N)
-•Hãylậpphươngánvậnchuyểnsaochotổngquãngđườngdi chuyểncủa k xelàngắnnhất.
+﻿•Có N hành khách 1, 2, ..., N, khách i muốn đi từ điểm i đến điểm i+N(i=1,2...,N). Có K sẽ bus 1,2,..., K xuất phát từ điểm 0, trong đó xe k có thể vận chuyển cùng 1 lúc qk khách. 
+•Biết rằng d(i,j) là khoảng cách đi từ điểm i đến điểm j (i, j = 0,1,...,2N)
+•Hãy lập phương án vận chuyển sao cho tổng quãng đường di chuyển của k xe là ngắn nhất.
 •Input
-•Dòng1: N và K
-•Dòng2: q1, q2, ..., qK
-•Dòngthứ2+i (i= 1,..., 2N+1): ghidòng thứ I củama trậnkhoảng cách d(i,j) 
+•Dòng 1: N và K
+•Dòng 2: q1, q2, ..., qK
+•Dòng thứ 2+i (i= 1,..., 2N+1): ghi dòng thứ I củama trận khoảng cách d(i,j) 

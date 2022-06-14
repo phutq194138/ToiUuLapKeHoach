@@ -7,7 +7,7 @@
 import random
 
 def output(a):
-	f = open('input/inputn=10.5.txt', mode='a+', encoding='utf-8')
+	f = open('input/inputn=200.txt', mode='a+', encoding='utf-8')
 	s = len(a)
 	for i in range(len(a)):
 		string = ''
@@ -16,7 +16,7 @@ def output(a):
 		f.write(string + '\n')
 	f.close()
 
-n = 10
+n = 200
 
 b = [[random.randint(1, 99) for i in range(2*n+1)] for i in range(2*n+1)]
 for i in range(2*n+1):
