@@ -1,4 +1,4 @@
-f = open('input/inputn=6k=2.txt', 'r')
+f = open('input/inputn=3k=2.txt', 'r')
 _l = f.readline().strip().split()
 n, k = int(_l[0]), int(_l[1])
 
