@@ -33,7 +33,7 @@ model.AddAllDifferent(x)
 solver = cp_model.CpSolver()
 status = solver.Solve(model)
 
-solution_printer = VarArraySolutionPrinterWithLimit(x, 5000)
+solution_printer = VarArraySolutionPrinterWithLimit(x, 50000)
 # Enumerate all solutions.
 solver.parameters.enumerate_all_solutions = True
 # Solve.
